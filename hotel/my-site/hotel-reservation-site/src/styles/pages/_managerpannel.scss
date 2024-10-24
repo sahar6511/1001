@@ -1,0 +1,32 @@
+.manager-pannel{
+
+    @extend .p-30;
+    &__menu{
+        @include right-flex;
+        @extend .p-15;
+        li{
+            @extend .p-15;
+            border-left: 2px solid $light-gray-color;
+            a{
+
+                color: $primary-color;
+                &:hover{
+                    color: $orange-color;
+                }
+            }
+        }
+        
+    }
+
+    .top-menu{
+        background-color: $white-color;
+        a{
+            color: $orange-color;
+        }
+    }
+    .header{
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+}
+
+
